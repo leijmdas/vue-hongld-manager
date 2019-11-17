@@ -1,8 +1,9 @@
 <template>
   <div class="dashboard-container">
-    <div class="dashboard-text">name: {{ name }}</div>
+    <!--<div  class="dashboard-text">name: {{ name }}</div>-->
+    <div><h2>宏利达海棉有限公司</h2></div>
     <div>
-      <img src="@/assets/images/girl.jpg"/>
+      <img src="@/assets/images/gg.jpg"/>
     </div>
   </div>
 </template>
