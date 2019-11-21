@@ -8,7 +8,7 @@
     <div> <a href="http://ntdghm.com/index.asp">http://ntdghm.com/index.asp</a></div>
 
     <div>
-      <img src="@/assets/images/gg.jpg"/>
+      <img src="@/assets/images/wallpaper.png"/>
     </div>
 
   </div>
