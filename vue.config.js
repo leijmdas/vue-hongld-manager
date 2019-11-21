@@ -44,7 +44,7 @@ module.exports = {
         }
       },
       '/xw': {
-        target: `http://127.0.0.1:80`,
+        target: `http://127.0.0.1:81`,
         changeOrigin: true,
         pathRewrite: {
            '^/xw'  : '/xw'
