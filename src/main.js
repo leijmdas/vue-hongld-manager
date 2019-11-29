@@ -5,6 +5,9 @@ import 'normalize.css/normalize.css' // A modern alternative to CSS resets
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import locale from 'element-ui/lib/locale/lang/en' // lang i18n
+import iView from 'iview'                    // 引入iview
+
+import 'iview/dist/styles/iview.css'        // 引入iview的css样式文件，后面如果需要自己配置也可以新建文件进行修改
 
 import '@/styles/index.scss' // global css
 
@@ -32,6 +35,7 @@ if (process.env.NODE_ENV === 'production') {
 Vue.use(ElementUI, { locale })
 
 Vue.config.productionTip = false
+Vue.use(iView)
 
 new Vue({
   el: '#app',
